@@ -114,6 +114,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Ajio-clone-devops</finalName>
 	</build>
 
 </project>
