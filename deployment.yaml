@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Ajio-clone-deployment
+  name: ajio-clone-deployment
   labels:
     app: example
 spec:
@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: Ajio-clone-service
+  name: ajio-clone-service
   labels:
     app: example
 spec:
