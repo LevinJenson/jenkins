@@ -37,7 +37,6 @@ public class ProductController {
 	ProductService productService;
 
 	
-	/* To save data into database*/
 	
 	@PostMapping
 	public ResponseEntity<String> addNewItem(@RequestBody ProductDetails productDetails) {
